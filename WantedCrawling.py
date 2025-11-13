@@ -28,14 +28,14 @@ def setup_driver():
         print("Please make sure ChromeDriver is installed and in your PATH")
         raise
 
-def extract_company_profile_links(driver, url, max_links=10):
+def extract_company_profile_links(driver, url, max_links=30):
     """
     Extract company profile links from the Wanted homepage
     
     Args:
         driver: Selenium WebDriver instance
         url: The URL to access
-        max_links: Maximum number of links to extract (default: 10)
+        max_links: Maximum number of links to extract (default: 30)
     
     Returns:
         List of company profile URLs
@@ -47,34 +47,127 @@ def extract_company_profile_links(driver, url, max_links=10):
     company_links = []
     
     try:
-        # Wait for JobCard elements to appear
-        WebDriverWait(driver, 15).until(
+        # Wait for initial JobCard elements to appear
+        WebDriverWait(driver, 30).until(
             EC.presence_of_element_located((By.CLASS_NAME, "JobCard_JobCard__aVx71"))
         )
         
-        ad_cards = driver.find_elements(By.CLASS_NAME, "JobCard_JobCard__aVx71")
-        print(f"Found {len(ad_cards)} JobCard elements on the page")
+        # Scroll and load more content until we have enough links
+        print(f"Scrolling to load more companies (target: {max_links} links)...")
+        scroll_attempts = 0
+        max_scroll_attempts = 10  # Maximum number of scroll attempts
+        last_count = 0
+        no_change_count = 0
         
-        # Extract href from each JobCard
-        for i, card in enumerate(ad_cards[:max_links], 1):
-            try:
-                link_element = card.find_element(By.TAG_NAME, "a")
-                href = link_element.get_attribute("href")
-                
-                if href:
-                    # Handle relative URLs
-                    if not href.startswith("http"):
-                        href = "https://www.wanted.co.kr" + href if href.startswith("/") else "https://www.wanted.co.kr/" + href
-                    company_links.append(href)
-                    print(f"  [{i}] Found link: {href}")
-            except (NoSuchElementException, Exception) as e:
-                print(f"  [{i}] Error extracting link: {e}")
-                continue
+        while len(company_links) < max_links and scroll_attempts < max_scroll_attempts:
+            # Get current JobCard elements
+            ad_cards = driver.find_elements(By.CLASS_NAME, "JobCard_JobCard__aVx71")
+            current_count = len(ad_cards)
+            
+            print(f"  Scroll attempt {scroll_attempts + 1}: Found {current_count} JobCard elements")
+            
+            # Extract links from newly loaded cards
+            for i, card in enumerate(ad_cards, 1):
+                if len(company_links) >= max_links:
+                    break
+                    
+                try:
+                    link_element = card.find_element(By.TAG_NAME, "a")
+                    href = link_element.get_attribute("href")
+                    
+                    if href:
+                        # Handle relative URLs
+                        if not href.startswith("http"):
+                            if href.startswith("/"):
+                                href = "https://www.wanted.co.kr" + href
+                            else:
+                                href = "https://www.wanted.co.kr/" + href
+                        
+                        # Add link if not already in list
+                        if href not in company_links:
+                            company_links.append(href)
+                            if len(company_links) <= max_links:
+                                print(f"    [{len(company_links)}/{max_links}] Found link: {href}")
+                            
+                except (NoSuchElementException, Exception):
+                    continue
+            
+            # Check if we have enough links
+            if len(company_links) >= max_links:
+                print(f"  ✓ Collected {len(company_links)} links. Stopping scroll.")
+                break
+            
+            # Check if new content was loaded
+            if current_count == last_count:
+                no_change_count += 1
+                if no_change_count >= 2:  # If no change for 2 consecutive scrolls, stop
+                    print(f"  ⚠ No new content loaded. Stopping scroll.")
+                    break
+            else:
+                no_change_count = 0
+                last_count = current_count
+            
+            # Scroll down to load more content
+            # Scroll to the last visible card to trigger loading
+            if ad_cards:
+                try:
+                    # Scroll to the last card
+                    driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", ad_cards[-1])
+                    time.sleep(1)
+                    
+                    # Additional scroll to ensure trigger
+                    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                    time.sleep(2)  # Wait for new content to load
+                except Exception as e:
+                    print(f"  Warning: Error during scroll: {e}")
+            
+            scroll_attempts += 1
+        
+        # Final extraction to ensure we have all links
+        if len(company_links) < max_links:
+            print(f"  Final extraction: Collecting remaining links...")
+            ad_cards = driver.find_elements(By.CLASS_NAME, "JobCard_JobCard__aVx71")
+            for card in ad_cards:
+                if len(company_links) >= max_links:
+                    break
+                try:
+                    link_element = card.find_element(By.TAG_NAME, "a")
+                    href = link_element.get_attribute("href")
+                    if href:
+                        if not href.startswith("http"):
+                            if href.startswith("/"):
+                                href = "https://www.wanted.co.kr" + href
+                            else:
+                                href = "https://www.wanted.co.kr/" + href
+                        if href not in company_links:
+                            company_links.append(href)
+                except:
+                    continue
+        
+        print(f"\nTotal unique links collected: {len(company_links)}")
         
     except TimeoutException:
         print("Timeout: JobCard elements not found.")
+        print("Trying alternative method...")
+        
+        # Alternative: Try to find any links with common patterns
+        try:
+            all_links = driver.find_elements(By.TAG_NAME, "a")
+            print(f"Found {len(all_links)} total links on the page")
+            
+            # Look for links that might be company profiles
+            for link in all_links:
+                href = link.get_attribute("href")
+                if href and ("/wd/" in href or "/companies/" in href or "/ad/" in href):
+                    if href not in company_links:
+                        company_links.append(href)
+                        if len(company_links) >= max_links:
+                            break
+        except Exception as e:
+            print(f"Error in alternative link finding: {e}")
     
-    return company_links
+    # Limit to max_links
+    return company_links[:max_links]
 
 def extract_company_profile_data(driver, company_url):
     """
@@ -322,7 +415,7 @@ def main():
         url = "https://www.wanted.co.kr"
     
     print("=" * 60)
-    print("Step 1: Extracting Top 10 Company Profile Links")
+    print("Step 1: Extracting Top 30 Company Profile Links")
     print("=" * 60)
     
     driver = None
@@ -333,11 +426,11 @@ def main():
         driver = setup_driver()
         
         # Extract company profile links
-        company_links = extract_company_profile_links(driver, url, max_links=10)
+        company_links = extract_company_profile_links(driver, url, max_links=30)
         
         # Display links found
         print("\n" + "=" * 60)
-        print("RESULTS - Top 10 Company Profile Links")
+        print("RESULTS - Top 30 Company Profile Links")
         print("=" * 60)
         
         if company_links:
