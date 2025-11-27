@@ -1,0 +1,5 @@
+﻿Community_ID,Size,Internal_Edges,External_Edges,Density,Top_Skills
+1,139,3258,2883,0.33969346262120736,"Tableau, BigQuery, ETL, A/B Testing, Power BI"
+3,126,1487,1976,0.1888253968253968,"JavaScript, React, FastAPI, CSS, TypeScript"
+2,113,1481,1767,0.23403919089759798,"Computer Vision, TensorRT, CUDA, Transformer, Sensor"
+0,92,1325,2147,0.31653129479216435,"MySQL, Redis, PostgreSQL, Go, RDBMS"

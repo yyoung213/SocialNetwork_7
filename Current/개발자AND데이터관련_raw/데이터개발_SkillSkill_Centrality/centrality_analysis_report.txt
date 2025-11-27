@@ -1,0 +1,76 @@
+============================================================
+개발자+데이터 통합 스킬-스킬 네트워크 중심성 분석 리포트
+============================================================
+
+전체 스킬 수: 728개
+네트워크 엣지 수: 71178개
+
+------------------------------------------------------------
+1. Degree 기준 Top 10 핵심 스킬
+------------------------------------------------------------
+488. Python                         (Degree: 672)
+11. AI                             (Degree: 650)
+244. Git                            (Degree: 643)
+23. AWS                            (Degree: 643)
+15. API                            (Degree: 642)
+303. JavaScript                     (Degree: 632)
+184. Docker                         (Degree: 630)
+106. CI/CD                          (Degree: 617)
+489. QA                             (Degree: 617)
+514. React                          (Degree: 616)
+
+------------------------------------------------------------
+2. Weighted Degree 기준 Top 10 핵심 스킬
+------------------------------------------------------------
+23. AWS                            (Weighted Degree: 12116.00)
+488. Python                         (Weighted Degree: 11668.00)
+15. API                            (Weighted Degree: 11071.00)
+303. JavaScript                     (Weighted Degree: 10619.00)
+11. AI                             (Weighted Degree: 10405.00)
+244. Git                            (Weighted Degree: 10340.00)
+514. React                          (Weighted Degree: 9856.00)
+184. Docker                         (Weighted Degree: 9015.00)
+559. SQL                            (Weighted Degree: 8865.00)
+106. CI/CD                          (Weighted Degree: 8395.00)
+
+------------------------------------------------------------
+3. Betweenness Centrality 기준 Top 10 브릿지 스킬
+------------------------------------------------------------
+92. C                              (Betweenness: 0.007332)
+407. Network                        (Betweenness: 0.006740)
+11. AI                             (Betweenness: 0.006423)
+488. Python                         (Betweenness: 0.006295)
+342. Linux                          (Betweenness: 0.006187)
+576. Security                       (Betweenness: 0.006012)
+51. Android                        (Betweenness: 0.005833)
+184. Docker                         (Betweenness: 0.005707)
+616. TCP/UDP                        (Betweenness: 0.005531)
+695. Windows                        (Betweenness: 0.005418)
+
+------------------------------------------------------------
+4. Eigenvector Centrality 기준 Top 10 핵심 스킬
+------------------------------------------------------------
+23. AWS                            (Eigenvector: 0.246111)
+15. API                            (Eigenvector: 0.224237)
+488. Python                         (Eigenvector: 0.222906)
+303. JavaScript                     (Eigenvector: 0.217027)
+244. Git                            (Eigenvector: 0.204148)
+11. AI                             (Eigenvector: 0.202876)
+514. React                          (Eigenvector: 0.200252)
+184. Docker                         (Eigenvector: 0.181479)
+559. SQL                            (Eigenvector: 0.174002)
+302. Java                           (Eigenvector: 0.171028)
+
+------------------------------------------------------------
+5. PageRank 기준 Top 10 핵심 스킬
+------------------------------------------------------------
+488. Python                         (PageRank: 0.016242)
+23. AWS                            (PageRank: 0.016166)
+15. API                            (PageRank: 0.014972)
+11. AI                             (PageRank: 0.014393)
+303. JavaScript                     (PageRank: 0.014270)
+244. Git                            (PageRank: 0.014173)
+514. React                          (PageRank: 0.013217)
+184. Docker                         (PageRank: 0.012247)
+559. SQL                            (PageRank: 0.012083)
+106. CI/CD                          (PageRank: 0.011440)

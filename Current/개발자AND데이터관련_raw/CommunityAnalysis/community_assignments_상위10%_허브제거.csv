@@ -1,0 +1,656 @@
+﻿Node_ID,Skill,Community_ID
+1,.NET,0
+2,.NET Core,0
+8,ABAP,0
+520,Redmine,0
+13,AML,0
+269,Hadoop,0
+273,Helm,0
+274,Hive,0
+19,ASP.NET,0
+276,Hybrid App,0
+21,ASR,0
+534,Routing,0
+533,Router,0
+281,IPS/IDS,0
+541,SAN,0
+542,SAP,0
+32,AWS EKS,0
+545,SAP FI,0
+546,SAP MM,0
+547,SAP S/4HANA,0
+292,Illustrator,0
+293,Impala,0
+550,SCM,0
+551,SCSS,0
+42,AWS SNS,0
+48,Ajax,0
+561,SQLite,0
+564,SSL,0
+567,SVN,0
+56,Ansible,0
+569,Salesforce,0
+313,KMS,0
+315,KVM,0
+311,Juniper,0
+61,Apps Script,0
+63,ArgoCD,0
+581,Shell Script,0
+73,BGP,0
+589,Socket,0
+591,SonarQube,0
+80,Backup/Restore,0
+598,Spring WebFlux,0
+345,Logistics,0
+346,Logstash,0
+601,Storage,0
+350,Low-code,0
+99,CCIE,0
+357,MES,0
+613,Switch,0
+615,TCP/IP,0
+616,TCP/UDP,0
+101,CCNP,0
+366,MS-SQL,0
+369,MVC,0
+628,Three.js,0
+629,Tibero,0
+630,Tomcat,0
+374,MariaDB,0
+126,Cisco,0
+127,Citrix,0
+131,CodeIgniter,0
+387,Milvus,0
+646,Unix,0
+649,VBA,0
+653,VM,0
+654,VMware,0
+399,NAS,0
+656,VPC,0
+398,NAC,0
+660,Vector DB,0
+406,Netty,0
+664,Virtualization,0
+665,Visual Studio,0
+410,Nginx,0
+411,No-code,0
+157,DPDK,0
+671,WAF,0
+679,Web Standards,0
+425,ORM,0
+427,OSPF,0
+430,Observability,0
+695,Windows,0
+439,OpenStack,0
+440,OpenTelemetry,0
+696,Windows Server,0
+443,Oracle,0
+190,EMC/EMI,0
+192,ERP,0
+449,PL,0
+706,Zabbix,0
+711,eGovFramework,0
+200,Endpoint Security,0
+715,jQuery,0
+717,n8n,0
+209,FCM,0
+724,x86,0
+726,정보보안기사,0
+728,정보처리기사,0
+233,GDI/GDI+,0
+247,GitLab CI,0
+504,RPA,0
+261,HIG,1
+267,HTML Canvas,1
+12,AIOps,1
+526,Retrofit,1
+271,Hardhat,1
+532,Room,1
+535,Ruby,1
+536,Ruby on Rails,1
+537,Rust,1
+25,AWS Aurora,1
+540,RxSwift,1
+30,AWS Direct Connect,1
+549,SAST,1
+552,SDLC,1
+44,Account Abstraction,1
+301,JWT,1
+562,SRE,1
+307,Jetpack,1
+52,Android SDK,1
+308,Jetpack Compose,1
+312,KMM,1
+320,Koin,1
+324,L2 Switch,1
+328,LLMOps,1
+585,Smart Contract,1
+590,Solidity,1
+78,Babylon.js,1
+336,Layer 2,1
+88,Blockchain,1
+344,LiveData,1
+89,Blockchain Node,1
+90,Bootstrap,1
+349,Lottie,1
+612,SwiftUI,1
+104,CEX,1
+371,MVP,1
+372,MVVM,1
+375,Markdown,1
+376,Material Design,1
+380,Message Queue,1
+129,Clean Architecture,1
+643,Unit Test,1
+133,Codec,1
+141,Core Graphics,1
+142,Coroutine,1
+145,Cross-browsing,1
+146,Crypto,1
+147,Cryptography,1
+404,Navigation Component,1
+149,Cypress,1
+151,DApp,1
+663,ViewModel,1
+153,DEX,1
+159,Dagger Hilt,1
+415,North Star Metric,1
+674,Wallet,1
+680,Web3,1
+168,DataBinding,1
+426,OSCP,1
+424,OP Stack,1
+428,OWASP,1
+681,Web3.js,1
+174,DeFi,1
+448,PHP,1
+705,ZK-Rollups,1
+196,EVM,1
+202,Ethers.js,1
+459,Paging,1
+205,Exchange,1
+206,ExoPlayer,1
+725,보안약점진단원,1
+727,정보보호,1
+217,Finance,1
+219,Fintech,1
+226,Fortify,1
+482,ProtoPie,1
+228,Foundry,1
+486,Pulsar,1
+493,QueryDSL,1
+243,Geth,1
+249,Glide,1
+3,3D Geometry,2
+4,3D Motion,2
+5,3D Reconstruction,2
+10,ADAS,2
+14,AOSP,2
+527,Rigging,2
+16,AR,2
+17,ARM,2
+530,Robotics,2
+20,ASPICE,2
+22,AUTOSAR,2
+539,RxJava,2
+543,SAP CO,2
+544,SAP ECC,2
+548,SAP SD,2
+554,SLAM,2
+557,SPI,2
+46,Agile,2
+45,Action Recognition,2
+49,Altium,2
+566,STL,2
+55,Animation,2
+573,Scrum,2
+65,Audio,2
+67,Autonomous Driving,2
+68,Avalonia,2
+579,Sensor,2
+583,Simulation,2
+586,Smart Factory,2
+74,BLE,2
+588,SoC,2
+76,BSP,2
+87,Blender,2
+600,SteamVR,2
+93,C#,2
+94,C++,2
+96,CAD,2
+97,CAE,2
+98,CAN,2
+614,SystemVerilog,2
+618,TLS,2
+620,TPM,2
+621,TTS,2
+113,CUDA,2
+625,TensorRT,2
+627,Test Case,2
+631,Transformer,2
+119,Catch2,2
+125,Circuit Design,2
+638,UART,2
+641,USB,2
+644,Unity,2
+647,Unreal Engine,2
+136,Computer Graphics,2
+648,VAE,2
+650,VHDL,2
+652,VITS,2
+657,VPN,2
+658,VR,2
+661,Verilog,2
+154,DICOM,2
+670,Vulkan,2
+158,DSP,2
+673,WPF,2
+170,DataStore,2
+683,WebGL,2
+684,WebGPU,2
+686,WebRTC,2
+176,DeepStream,2
+177,Depth Estimation,2
+180,Device Driver,2
+692,Win32 API,2
+181,Diffusion,2
+693,WinDbg,2
+694,WinUI3,2
+182,Digital Twin,2
+188,EDR,2
+701,XR,2
+703,YOLO,2
+198,Electron,2
+199,Embedded,2
+201,Ethernet,2
+210,FFmpeg,2
+723,vcpkg,2
+212,FPGA,2
+221,Firmware,2
+227,Foundation Model,2
+230,FreeRTOS,2
+235,GLSL,2
+237,GPU,2
+239,GStreamer,2
+258,HAL,2
+260,HCI,2
+264,HLS,2
+265,HMI,2
+277,I2C,2
+279,IEC 62304,2
+280,IMU,2
+282,IPsec,2
+284,ISO 13485,2
+285,ISO 14971,2
+286,ISO 26262,2
+289,ITIL,2
+294,IoT,2
+295,JAX,2
+297,JNI,2
+325,L3 Switch,2
+326,L4 Switch,2
+337,Leaflet,2
+338,LevelDB,2
+339,LiDAR,2
+341,Linear Algebra,2
+343,Linux Kernel,2
+352,MATLAB,2
+354,MAVLink,2
+355,MCAL,2
+356,MCU,2
+358,MFC,2
+359,MISRA C,2
+363,MPEG-DASH,2
+364,MQTT,2
+373,Mapbox,2
+378,Medical Device,2
+381,Meta Quest,2
+383,Metal,2
+388,Mobility,2
+389,Modbus,2
+391,Monday.com,2
+395,Multi-thread,2
+403,NPU,2
+408,Neural Rendering,2
+414,Nordic,2
+419,Nvidia Issac Sim,2
+420,Nvidia Omniverse,2
+422,ONNX,2
+434,OpenCL,2
+435,OpenCV,2
+436,OpenGL,2
+437,OpenLayers,2
+438,OpenSSL,2
+441,OpenXR,2
+442,OrCAD,2
+444,PACS,2
+445,PADS,2
+446,PCB,2
+447,PDB,2
+450,PLM,2
+457,PX4,2
+462,Photoshop,2
+463,Physics Engine,2
+469,Pose Estimation,2
+484,Prototyping,2
+490,QNX,2
+491,Qt,2
+492,Quantization,2
+499,RF,2
+500,RISC-V,2
+503,ROS,2
+505,RS232,2
+506,RS422,2
+507,RS485,2
+508,RTC,2
+510,RTOS,2
+128,Claude,3
+513,Ray,3
+516,Recharts,3
+390,Model Serving,3
+394,Multi-Agent,3
+139,Copilot,3
+396,Multimodal,3
+524,Replit,3
+401,NLP,3
+402,NLTK,3
+275,HuggingFace,3
+148,Cursor,3
+287,ISO27001,3
+290,IaC,3
+676,Wav2Vec,3
+37,AWS OpenSearch,3
+431,On-premise,3
+560,SQLAlchemy,3
+433,OpenAI API,3
+183,Django,3
+697,Wireframe,3
+571,Scikit-image,3
+319,KoNLPy,3
+575,Search Engine,3
+322,KubeFlow,3
+331,Label Studio,3
+332,LangChain,3
+333,LangGraph,3
+334,LangSmith,3
+592,SpaCy,3
+464,Pillow,3
+722,vLLM,3
+218,Fine-tuning,3
+603,Storyboard,3
+476,PowerShell,3
+222,Flask,3
+480,Prompt Engineering,3
+361,MLFlow,3
+234,GDPR,3
+236,GNN,3
+241,Gemini,3
+114,CVAT,3
+633,Triton,3
+124,ChatGPT,3
+512,Radix UI,4
+515,React Native,4
+517,Recoil,4
+522,Redux,4
+523,Remix,4
+528,Riverpod,4
+531,Rollup,4
+538,RxJS,4
+28,AWS CloudFront,4
+29,AWS CodePipeline,4
+31,AWS ECS,4
+34,AWS Elastic Beanstalk,4
+36,AWS Lambda,4
+39,AWS RDS,4
+553,SEO,4
+43,AWS SQS,4
+556,SPA,4
+555,SOLID,4
+558,SPM,4
+563,SSE,4
+565,SSR,4
+54,Angular,4
+53,Android Studio,4
+568,SWC,4
+57,Ant Design,4
+59,Apollo Client,4
+578,Semantic Markup,4
+580,Sentry,4
+69,Axon Framework,4
+71,BDD,4
+75,BLoC,4
+77,Babel,4
+79,Backoffice,4
+84,Biome,4
+85,Bitbucket,4
+597,Spring Security,4
+602,Storm,4
+604,Storybook,4
+606,Styled-components,4
+608,Svelte,4
+609,Swagger,4
+100,CCNA,4
+103,CDN,4
+617,TDD,4
+105,CGAL,4
+619,TMS,4
+107,CMS,4
+623,Tailwind CSS,4
+624,Tanstack Query,4
+116,Cafe24,4
+121,Celery,4
+122,Charles,4
+635,Turborepo,4
+636,TypeORM,4
+123,Chart.js,4
+130,Cloudflare,4
+143,Crawler,4
+659,VTK,4
+150,D3.js,4
+152,DDD,4
+666,Vite,4
+667,Vitest,4
+156,DNS,4
+669,Vuex,4
+672,WMS,4
+160,Dart,4
+677,Web API,4
+678,Web Accessibility,4
+682,WebAssembly,4
+685,WebKit,4
+687,WebSocket,4
+688,WebView,4
+689,Webpack,4
+178,Design System,4
+691,Whisper,4
+690,Webtoon,4
+700,XML,4
+704,Yarn Berry,4
+193,ESBuild,4
+194,ESLint,4
+707,Zeplin,4
+708,Zod,4
+709,Zustand,4
+712,ePUB,4
+207,Expo,4
+208,Express.js,4
+720,shadcn/ui,4
+719,pytest,4
+215,Fastlane,4
+216,Figma,4
+220,Firebase,4
+224,Flow,4
+225,Flutter,4
+229,Framer Motion,4
+242,GetX,4
+245,Git Flow,4
+246,GitHub Actions,4
+256,GraphQL,4
+270,Hadoop YARN,4
+272,Healthcare,4
+278,IAM,4
+283,ISMS-P,4
+299,JSON,4
+300,JSON-RPC,4
+304,JavaScript(ES6+),4
+306,Jest,4
+310,Jotai,4
+317,Kanban,4
+330,LVGL,4
+335,Laravel,4
+368,MSW,4
+370,MVI,4
+377,Media,4
+379,Memcached,4
+386,Microsoft 365,4
+400,NCP,4
+405,NestJS,4
+418,Nuxt.js,4
+423,OOP,4
+452,PMF,4
+454,PNPM,4
+456,PRD,4
+458,PagerDuty,4
+461,Payment,4
+465,Pinia,4
+467,Playwright,4
+471,Postman,4
+478,Prettier,4
+481,PropTech,4
+483,Protocol Buffers,4
+494,Qwik,4
+509,RTK Query,4
+511,RabbitMQ,4
+6,A/B Testing,5
+7,AARRR,5
+518,Redash,5
+521,Redshift,5
+9,AD Tech,5
+525,Retention,5
+529,Roadmap,5
+18,ARPU,5
+24,AWS Athena,5
+26,AWS Bedrock,5
+27,AWS CloudFormation,5
+33,AWS ElastiCache,5
+35,AWS Kinesis,5
+38,AWS QuickSight,5
+40,AWS Route 53,5
+50,Amplitude,5
+58,Apache,5
+572,Scikit-learn,5
+60,Appium,5
+574,ScyllaDB,5
+62,AppsFlyer,5
+577,Selenium,5
+66,AutoML,5
+582,Shopify,5
+72,BFF,5
+587,Snowflake,5
+81,BeautifulSoup,5
+594,Spreadsheet,5
+83,BigQuery,5
+82,BentoML,5
+596,Spring Cloud,5
+86,Bitrise,5
+91,Braze,5
+607,Superset,5
+95,CAC,5
+611,Swift Concurrency,5
+102,CDC,5
+108,CPI,5
+109,CQRS,5
+622,Tableau,5
+112,CSTS,5
+115,CX,5
+117,Cassandra,5
+118,CatBoost,5
+632,Trino,5
+120,Causal Inference,5
+634,Tuist,5
+640,UIKit,5
+132,CodePush,5
+645,Unity Ads,5
+134,Cohort Analysis,5
+135,Combine,5
+651,VIPER,5
+140,Copilot Studio,5
+655,VOC,5
+144,Credit Scoring,5
+662,Vertex AI,5
+161,Data Cleansing,5
+162,Data Extraction,5
+163,Data Governance,5
+164,Data Mart,5
+165,Data Modeling,5
+166,Data Quality,5
+167,Data Warehouse,5
+675,WatchOS,5
+169,DataHub,5
+171,Databricks,5
+172,Datadog,5
+173,Dataflow,5
+175,Debezium,5
+185,DocumentDB,5
+186,DynamoDB,5
+699,XGBoost,5
+187,E-commerce,5
+189,ELT,5
+702,Xcode,5
+191,EMR,5
+698,XCTest,5
+710,dbt,5
+714,iPadOS,5
+203,Event-driven,5
+716,k6,5
+204,Excel,5
+718,nGrinder,5
+721,tvOS,5
+211,FHIR,5
+213,Facebook Ads,5
+223,Flink,5
+231,Funnel Analysis,5
+238,GSAP,5
+240,Game,5
+248,GitOps,5
+251,Google ADK,5
+252,Google AdMob,5
+253,Google Analytics,5
+254,Google Workspace,5
+257,Growth Hacking,5
+259,HBase,5
+262,HIS,5
+263,HL7,5
+288,ISTQB,5
+291,Iceberg,5
+296,JMeter,5
+314,KServe,5
+318,Kibana,5
+329,LTV,5
+340,LightGBM,5
+347,Loki,5
+348,Looker Studio,5
+351,Luigi,5
+353,MAU,5
+365,MS Office,5
+382,Metabase,5
+384,MetricFlow,5
+385,Micro Frontends,5
+417,NumPy,5
+421,O2O,5
+429,Objective-C,5
+432,Oozie,5
+453,PMP,5
+455,PO,5
+460,Pandas,5
+468,Poetry,5
+472,Power Apps,5
+473,Power Automate,5
+474,Power BI,5
+475,Power Platform,5
+477,Prefect,5
+485,Pub/Sub,5
+487,Puppeteer,5
+495,R,5
+501,ROAS,5
+502,ROI,5

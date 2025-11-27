@@ -1,0 +1,6 @@
+﻿Community_ID,Size,Internal_Edges,External_Edges,Density,Top_Skills
+1,205,3893,5530,0.1861788617886179,"Python, C, AI, CS, Linux"
+3,161,3502,6209,0.2718944099378882,"JavaScript, React, TypeScript, Git, API"
+2,124,2701,6026,0.35418305795961186,"AWS, Docker, Java, Kubernetes, CI/CD"
+4,122,2033,4967,0.27543693266495056,"SQL, Kotlin, Airflow, Statistics, iOS"
+0,5,10,396,1.0,"Claude, Copilot, Gemini, Cursor, ChatGPT"

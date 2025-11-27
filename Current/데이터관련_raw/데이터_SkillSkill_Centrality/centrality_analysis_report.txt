@@ -1,0 +1,76 @@
+============================================================
+스킬-스킬 네트워크 중심성 분석 리포트
+============================================================
+
+전체 스킬 수: 495개
+네트워크 엣지 수: 24239개
+
+------------------------------------------------------------
+1. Degree 기준 Top 10 핵심 스킬
+------------------------------------------------------------
+338. Python                         (Degree: 447)
+10. AI                             (Degree: 419)
+380. SQL                            (Degree: 374)
+19. AWS                            (Degree: 366)
+128. Docker                         (Degree: 361)
+165. Git                            (Degree: 357)
+223. Kubernetes                     (Degree: 339)
+74. CI/CD                          (Degree: 335)
+224. LLM                            (Degree: 331)
+13. API                            (Degree: 327)
+
+------------------------------------------------------------
+2. Weighted Degree 기준 Top 10 핵심 스킬
+------------------------------------------------------------
+338. Python                         (Weighted Degree: 4872.00)
+10. AI                             (Weighted Degree: 4179.00)
+19. AWS                            (Weighted Degree: 3252.00)
+380. SQL                            (Weighted Degree: 2891.00)
+223. Kubernetes                     (Weighted Degree: 2559.00)
+128. Docker                         (Weighted Degree: 2472.00)
+224. LLM                            (Weighted Degree: 2445.00)
+160. GCP                            (Weighted Degree: 2385.00)
+246. ML                             (Weighted Degree: 2139.00)
+40. Airflow                        (Weighted Degree: 2070.00)
+
+------------------------------------------------------------
+3. Betweenness Centrality 기준 Top 10 브릿지 스킬
+------------------------------------------------------------
+338. Python                         (Betweenness: 0.027488)
+10. AI                             (Betweenness: 0.022599)
+380. SQL                            (Betweenness: 0.018006)
+66. C                              (Betweenness: 0.014373)
+165. Git                            (Betweenness: 0.013585)
+77. CS                             (Betweenness: 0.012769)
+224. LLM                            (Betweenness: 0.012549)
+339. QA                             (Betweenness: 0.012208)
+128. Docker                         (Betweenness: 0.011800)
+13. API                            (Betweenness: 0.010980)
+
+------------------------------------------------------------
+4. Eigenvector Centrality 기준 Top 10 핵심 스킬
+------------------------------------------------------------
+338. Python                         (Eigenvector: 0.340012)
+10. AI                             (Eigenvector: 0.308935)
+19. AWS                            (Eigenvector: 0.241917)
+380. SQL                            (Eigenvector: 0.200984)
+224. LLM                            (Eigenvector: 0.200877)
+223. Kubernetes                     (Eigenvector: 0.191617)
+160. GCP                            (Eigenvector: 0.189610)
+128. Docker                         (Eigenvector: 0.184318)
+246. ML                             (Eigenvector: 0.171993)
+106. DL                             (Eigenvector: 0.162979)
+
+------------------------------------------------------------
+5. PageRank 기준 Top 10 핵심 스킬
+------------------------------------------------------------
+338. Python                         (PageRank: 0.029215)
+10. AI                             (PageRank: 0.024972)
+19. AWS                            (PageRank: 0.018594)
+380. SQL                            (PageRank: 0.017365)
+223. Kubernetes                     (PageRank: 0.014569)
+128. Docker                         (PageRank: 0.014546)
+224. LLM                            (PageRank: 0.014312)
+160. GCP                            (PageRank: 0.013538)
+106. DL                             (PageRank: 0.012490)
+246. ML                             (PageRank: 0.012400)

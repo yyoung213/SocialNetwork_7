@@ -1,0 +1,27 @@
+
+【핵심 발견사항】
+
+1. 모든 지표에서 공통으로 나타나는 슈퍼 허브 스킬: 5개
+   → AI, Docker, LLM, Python, SQL
+
+2. Degree와 Eigenvector/PageRank에서 공통으로 나타나는 스킬: 7개
+   → AI, AWS, Docker, Kubernetes, LLM, Python, SQL
+
+3. 브릿지 역할을 하는 스킬 (Betweenness 높지만 Degree 낮음): 3개
+   → C, CS, QA
+
+【통계 요약】
+
+- 평균 Degree: 97.94
+- 최대 Degree: 447
+- 평균 Weighted Degree: 293.77
+- 최대 Weighted Degree: 4872.00
+- 평균 Betweenness: 0.001943
+- 최대 Betweenness: 0.027488
+
+【해석】
+
+1. Degree가 높은 스킬 = 많은 다른 스킬과 함께 요구되는 범용 스킬
+2. Weighted Degree가 높은 스킬 = 강하게 연결된 스킬 (자주 함께 등장)
+3. Betweenness가 높은 스킬 = 다른 스킬 군집을 연결하는 브릿지 역할
+4. Eigenvector/PageRank가 높은 스킬 = 중요 스킬들과 연결된 권위 있는 스킬

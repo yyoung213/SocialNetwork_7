@@ -1,0 +1,5 @@
+﻿Community_ID,Size,Internal_Edges,External_Edges,Density,Top_Skills
+0,175,3957,4389,0.25990147783251233,"Python, AI, DL, Docker, CS"
+3,124,3195,4171,0.4189614476789929,"SQL, BigQuery, Tableau, Spark, QA"
+1,111,1376,2776,0.2253890253890254,"JavaScript, Git, React, Planning, Figma"
+2,85,1334,3040,0.37366946778711485,"MySQL, Monitoring, CI/CD, PostgreSQL, Redis"

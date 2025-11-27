@@ -1,0 +1,57 @@
+{
+  "num_nodes": 779,
+  "num_edges": 46751,
+  "avg_degree": 120.02824133504492,
+  "max_degree": 612,
+  "min_degree": 0,
+  "num_components": 106,
+  "largest_component_size": 674,
+  "density": 0.15427794516072613,
+  "avg_clustering": 0.7089546550838376,
+  "avg_edge_weight": 8.07815875596244,
+  "max_edge_weight": 324,
+  "min_edge_weight": 2,
+  "num_isolated_nodes": 105,
+  "top_10_degree_nodes": [
+    [
+      "Python",
+      612
+    ],
+    [
+      "Git",
+      593
+    ],
+    [
+      "AI",
+      588
+    ],
+    [
+      "API",
+      583
+    ],
+    [
+      "CI/CD",
+      577
+    ],
+    [
+      "AWS",
+      574
+    ],
+    [
+      "JavaScript",
+      570
+    ],
+    [
+      "QA",
+      564
+    ],
+    [
+      "Docker",
+      562
+    ],
+    [
+      "React",
+      552
+    ]
+  ]
+}

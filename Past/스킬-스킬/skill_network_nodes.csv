@@ -1,0 +1,780 @@
+﻿Skill,Degree
+Python,612
+Git,593
+AI,588
+API,583
+CI/CD,577
+AWS,574
+JavaScript,570
+QA,564
+Docker,562
+React,552
+Kubernetes,541
+SQL,535
+TypeScript,522
+Java,519
+Linux,512
+UI,512
+Monitoring,500
+C,499
+REST API,499
+CS,498
+Network,495
+GCP,494
+Jira,488
+Security,484
+Spring,481
+Kotlin,465
+MySQL,464
+Redis,463
+DevOps,460
+DL,446
+Planning,446
+Kafka,445
+Azure,434
+ML,432
+Next.js,431
+RDBMS,431
+LLM,427
+PostgreSQL,425
+UX,425
+NoSQL,423
+Go,411
+Node.js,411
+PM,410
+HTML,409
+Async,409
+Terraform,406
+CSS,399
+Grafana,395
+IaC,390
+Confluence,390
+Airflow,388
+MSA,387
+Prometheus,382
+Android,379
+MLOps,377
+Jenkins,375
+Slack,373
+Vue,373
+Streaming,368
+Elasticsearch,367
+MongoDB,366
+Spark,361
+Statistics,360
+iOS,356
+RAG,350
+Computer Vision,346
+JPA,339
+AWS EKS,338
+GitHub Actions,333
+AWS S3,328
+Shell Script,328
+FastAPI,327
+ArgoCD,312
+TCP/UDP,311
+Notion,310
+Figma,309
+R,309
+AWS RDS,308
+ETL,307
+Webpack,301
+Tableau,301
+Apache,300
+Windows,299
+HTTP,296
+Embedded,290
+Zustand,286
+NLP,286
+Fine-tuning,284
+WebSocket,284
+BigQuery,284
+NestJS,281
+A/B Testing,280
+Data Modeling,279
+LangChain,278
+GraphQL,278
+Ansible,276
+E-commerce,276
+Design System,275
+MVVM,274
+JavaScript(ES6+),273
+Hybrid App,270
+ORM,268
+Jest,268
+Datadog,267
+Hadoop,267
+Redux,265
+Finance,263
+Swift,263
+Model Serving,263
+Data Quality,258
+TCP/IP,258
+Claude,256
+Sensor,256
+AWS ECS,256
+SPA,256
+GPU,254
+Payment,254
+Helm,253
+Django,252
+SSR,249
+Scala,245
+Vite,237
+TDD,235
+Observability,235
+Flink,235
+ISMS-P,234
+Angular,230
+IoT,230
+Cursor,230
+Rust,229
+AD Tech,225
+React Native,225
+Selenium,225
+Storage,224
+AWS Lambda,224
+Logistics,223
+Oracle,223
+Flask,222
+Playwright,222
+RabbitMQ,221
+Agile,218
+AWS SQS,216
+MLFlow,215
+Virtualization,212
+Backup/Restore,211
+LangGraph,211
+MariaDB,209
+ISTQB,209
+Flow,208
+ERP,207
+Fintech,206
+Quantization,206
+Tanstack Query,206
+GitLab CI,206
+Flutter,205
+TensorRT,205
+DynamoDB,205
+CSTS,205
+OpenCV,203
+Postman,201
+AWS Athena,199
+ONNX,198
+Redshift,196
+SRE,194
+Unity,194
+dbt,192
+Data Governance,191
+AWS Aurora,191
+Spring WebFlux,190
+정보처리기사,190
+AWS SNS,190
+VPN,189
+Data Warehouse,189
+VPC,188
+Multimodal,188
+Power BI,188
+AWS CloudFormation,187
+Pandas,186
+Excel,186
+Unix,186
+Redash,185
+GitOps,185
+Cryptography,184
+SEO,184
+Recoil,183
+Game,183
+Clean Architecture,182
+Data Extraction,182
+Scikit-learn,182
+KubeFlow,181
+Socket,180
+Search Engine,180
+Linux Kernel,179
+Cypress,178
+Appium,178
+EMR,177
+Blockchain,177
+PL,176
+AWS OpenSearch,176
+Express.js,175
+Robotics,173
+Copilot,173
+MCU,173
+MVC,173
+IAM,172
+Looker Studio,172
+Triton,172
+Transformer,171
+Google Analytics,169
+ROS,168
+Simulation,168
+Sentry,166
+OOP,166
+Amplitude,166
+MS-SQL,166
+SCSS,165
+WebRTC,165
+DDD,164
+Storybook,162
+Prompt Engineering,160
+RTOS,160
+CUDA,159
+Superset,159
+Cohort Analysis,158
+Nginx,158
+Iceberg,156
+IMU,156
+CAN,155
+AWS CloudFront,154
+MQTT,154
+JMeter,154
+Routing,154
+vLLM,152
+NumPy,152
+Swagger,150
+Funnel Analysis,150
+Snowflake,150
+AWS Kinesis,149
+SonarQube,149
+Tailwind CSS,148
+ELT,148
+JSON,147
+TLS,146
+PHP,146
+CDC,146
+LLMOps,145
+Hive,145
+QueryDSL,144
+PO,143
+Databricks,142
+Jetpack,142
+Linear Algebra,141
+Firebase,140
+Autonomous Driving,140
+DSP,140
+Milvus,140
+OpenTelemetry,140
+Gemini,139
+Healthcare,137
+Turborepo,137
+VMware,137
+CISSP,137
+ChatGPT,136
+WebView,135
+SoC,135
+SCM,135
+Scrum,134
+SDLC,133
+Combine,133
+정보보호,133
+AWS ElastiCache,133
+OpenStack,132
+MVP,132
+Cisco,131
+SAP,130
+ARM,128
+LiDAR,128
+jQuery,128
+NPU,127
+D3.js,125
+On-premise,125
+Backoffice,124
+Smart Contract,124
+Coroutine,123
+Loki,123
+Web Accessibility,123
+SwiftUI,121
+EVM,120
+C++,120
+Data Mart,120
+SLAM,120
+CISA,119
+Mobility,119
+Crypto,117
+L2 Switch,117
+CCNP,117
+VM,117
+ASR,117
+Web Standards,115
+PMP,112
+Test Case,111
+OpenGL,111
+Celery,111
+Bitbucket,111
+DeFi,110
+Firmware,110
+Jetpack Compose,110
+AutoML,109
+Styled-components,108
+JWT,108
+Dagger Hilt,107
+SAP FI,105
+Qt,105
+Retention,105
+TTS,105
+BLE,104
+I2C,103
+Hadoop YARN,103
+Firewall,103
+Unit Test,102
+SPI,102
+ASP.NET,101
+HuggingFace,101
+.NET,101
+Room,100
+Google Workspace,99
+Babel,99
+Router,99
+KMS,98
+PNPM,97
+Cross-browsing,97
+MS Office,97
+SAP CO,97
+Vector DB,97
+AWS QuickSight,97
+Swift Concurrency,96
+WMS,96
+SVN,96
+Medical Device,96
+Ethernet,96
+AML,96
+Rollup,94
+Tomcat,94
+Electron,94
+SAP ECC,94
+CCIE,94
+DEX,93
+WebGL,93
+Zabbix,93
+AWS Direct Connect,92
+Web3,92
+Media,91
+Exchange,91
+Vitest,91
+Svelte,91
+Puppeteer,90
+SSE,90
+Unreal Engine,89
+Fastlane,88
+WPF,87
+Causal Inference,87
+Diffusion,87
+CCNA,86
+Protocol Buffers,86
+Solidity,86
+O2O,85
+Vertex AI,85
+Chart.js,85
+Cassandra,85
+Three.js,84
+Blockchain Node,84
+UART,84
+Prototyping,84
+LightGBM,83
+Jotai,83
+Kibana,83
+CAD,82
+SQLAlchemy,82
+Debezium,82
+MES,81
+Nuxt.js,80
+VOC,79
+Trino,79
+FPGA,78
+LoadRunner,77
+Multi-Agent,77
+ESLint,77
+ISO27001,75
+AUTOSAR,75
+TypeORM,74
+정보보안기사,74
+KVM,74
+Ray,73
+DNS,73
+AIOps,72
+SOLID,72
+Salesforce,72
+Ruby,71
+Git Flow,71
+RxSwift,70
+MATLAB,70
+CatBoost,70
+ABAP,70
+Prefect,68
+TestRail,68
+Prettier,67
+Ruby on Rails,66
+NCP,65
+JAX,65
+MVI,65
+shadcn/ui,65
+LTV,65
+Redmine,64
+Ant Design,64
+SAP S/4HANA,64
+CDN,64
+Micro Frontends,64
+DataHub,63
+Pinia,63
+Device Driver,63
+EMC/EMI,63
+PowerShell,63
+Microsoft 365,63
+Roadmap,62
+Netty,61
+Apollo Client,61
+Wallet,61
+ISO 26262,60
+Switch,60
+Circuit Design,60
+Codec,59
+FreeRTOS,59
+XML,59
+Luigi,59
+Laravel,59
+OSCP,58
+Zod,58
+Pub/Sub,58
+AOSP,56
+Objective-C,56
+CQRS,56
+BFF,55
+ADAS,55
+k6,54
+Data Cleansing,54
+Charles,54
+Event-driven,53
+WAF,53
+ITIL,53
+MAU,52
+QNX,52
+Retrofit,51
+Spring Cloud,51
+Dart,51
+Blender,51
+L3 Switch,51
+SAP MM,50
+SAP SD,50
+PCB,49
+Metabase,49
+DocumentDB,49
+PRD,49
+Audio,48
+Nvidia Omniverse,48
+GStreamer,48
+OrCAD,48
+MDM,47
+Altium,47
+AWS Bedrock,47
+GetX,47
+TMS,47
+IPsec,47
+Yarn Berry,46
+FFmpeg,46
+DApp,46
+Zeplin,45
+Braze,45
+BDD,45
+BentoML,45
+XCTest,45
+FCM,44
+Computer Graphics,44
+Spring Security,44
+HL7,43
+PLM,43
+Pose Estimation,43
+OpenAI API,43
+DICOM,42
+SAST,42
+RxJS,41
+Verilog,41
+Xcode,41
+ASPICE,41
+TPM,41
+GDPR,41
+YOLO,41
+Memcached,41
+USB,40
+nGrinder,40
+PACS,40
+CMS,39
+L4 Switch,39
+Android Studio,39
+Whisper,39
+Endpoint Security,39
+Tuist,39
+ESBuild,39
+VR,38
+Recharts,38
+SQLite,37
+IPS/IDS,37
+n8n,37
+VBA,36
+CVAT,36
+Riverpod,36
+Expo,36
+OWASP,36
+HIS,35
+L7 Switch,35
+pytest,35
+Pulsar,35
+ViewModel,35
+SoapUI,35
+Credit Scoring,35
+CodeIgniter,34
+JSON-RPC,34
+Foundry,33
+CX,33
+Ethers.js,33
+PMO,33
+Visual Studio,32
+BLoC,32
+x86,32
+HLS,32
+AWS Elastic Beanstalk,31
+EDR,31
+MFC,31
+VITS,30
+Spreadsheet,30
+Active Directory,30
+UIKit,30
+Digital Twin,30
+.NET Core,29
+CodePush,29
+RF,28
+HMI,28
+HAL,28
+WebKit,28
+Cloudflare,28
+Webtoon,27
+HIG,27
+Juniper,27
+AR,26
+Hardhat,26
+ISO 13485,26
+OpenCL,26
+Apps Script,26
+Lottie,26
+SSL,25
+Message Queue,25
+Photoshop,25
+Windows Server,25
+Koin,24
+AWS CodePipeline,24
+Framer Motion,24
+SAP PP,24
+Markdown,24
+AppsFlyer,24
+BeautifulSoup,23
+Cafe24,23
+MSW,23
+WebAssembly,22
+RxJava,22
+Storm,22
+Bootstrap,22
+Vuex,22
+BSP,22
+Technical Writing,21
+Label Studio,21
+RISC-V,21
+Growth Hacking,21
+Depth Estimation,20
+Zephyr,20
+Nordic,19
+KMM,19
+XGBoost,19
+AWS Route 53,19
+Physics Engine,19
+Radix UI,19
+SAN,18
+IEC 62304,18
+HTML Canvas,18
+Babylon.js,18
+AARRR,18
+ePUB,18
+Locust,17
+Dataflow,17
+PADS,17
+ProtoPie,17
+FHIR,16
+DPDK,16
+Web3.js,16
+SystemVerilog,16
+Tibero,14
+VTK,14
+Crawler,14
+OpenSSL,14
+LangSmith,13
+Mapbox,13
+CAE,13
+Wireframe,13
+ISO 14971,13
+Material Design,13
+Win32 API,13
+OpenLayers,12
+Remix,12
+RS485,12
+Vulkan,12
+Kanban,11
+CPI,11
+3D Geometry,11
+C#,10
+DeepStream,10
+BGP,9
+NAS,9
+DHCP,9
+OSPF,9
+GPGPU,9
+SWC,9
+3D Modeling,9
+OpenZeppelin,9
+Smart Factory,9
+VIPER,8
+Semantic Markup,8
+STL,8
+RS232,8
+PropTech,7
+Storyboard,7
+VHDL,7
+PX4,7
+ROAS,7
+Citrix,7
+CEX,7
+3D Reconstruction,7
+RS422,6
+CAC,6
+Power Platform,6
+RPA,6
+WebGPU,6
+Nvidia Issac Sim,5
+HCI,5
+No-code,5
+XR,5
+MISRA C,5
+Leaflet,5
+WinDbg,5
+Ajax,4
+Wav2Vec,4
+Scikit-image,4
+Google Drive,3
+Android SDK,3
+JNI,3
+Pillow,3
+Modbus,2
+Metal,2
+Multi-thread,2
+GDI/GDI+,2
+Monday.com,2
+GMP,1
+VDI,1
+PMF,1
+OneDrive,1
+Power Electronics,1
+Impala,1
+Navigation Component,0
+WinUI3,0
+NLTK,0
+Revit,0
+OpenXR,0
+Hyper-V,0
+RTK Query,0
+CircleCI,0
+Animation,0
+ScyllaDB,0
+LVGL,0
+SDET,0
+North Star Metric,0
+Axon Framework,0
+ZK-Rollups,0
+Geth,0
+RTC,0
+Foundation Model,0
+LiveData,0
+Poetry,0
+DataBinding,0
+IEC 81001-5-1,0
+GitBook,0
+WatchOS,0
+3D Motion,0
+Katalon,0
+tvOS,0
+ExoPlayer,0
+CPO,0
+IEC 62366,0
+Robot Framework,0
+MetricFlow,0
+GSAP,0
+Google ADK,0
+CGAL,0
+Logstash,0
+Paging,0
+Copilot Studio,0
+Shopify,0
+KoNLPy,0
+Meta Quest,0
+Unity Ads,0
+OP Stack,0
+Fiddler,0
+Rigging,0
+Cucumber,0
+보안약점진단원,0
+SPM,0
+LevelDB,0
+MPEG-DASH,0
+PLL,0
+ApexCharts,0
+VB.NET,0
+한컴오피스,0
+Load Balancer,0
+Power Apps,0
+AWS Device Farm,0
+Bitrise,0
+Catch2,0
+Illustrator,0
+Redoc,0
+MCAL,0
+NAC,0
+ARPU,0
+Account Abstraction,0
+eGovFramework,0
+HBase,0
+Google AdMob,0
+vcpkg,0
+WordPress,0
+GNN,0
+ROI,0
+Layer 2,0
+Oozie,0
+Core Graphics,0
+Power Automate,0
+Glide,0
+PDB,0
+Replit,0
+iPadOS,0
+AWS CodeBuild,0
+Low-code,0
+SteamVR,0
+SpaCy,0
+GLSL,0
+Neural Rendering,0
+Facebook Ads,0
+Biome,0
+PSIM,0
+Qwik,0
+DataStore,0
+LAMP,0
+MAVLink,0
+MarTech,0
+HeadSpin,0
+KServe,0
+Avalonia,0
+CISO,0
+Action Recognition,0
+PagerDuty,0
+VAE,0
+Fortify,0
+TaskWorld,0
+Gauge,0
+Web API,0

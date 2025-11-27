@@ -1,0 +1,7 @@
+﻿Community_ID,Size,Internal_Edges,External_Edges,Density,Top_Skills
+2,167,3571,5018,0.2576293196739052,"Embedded, Computer Vision, Sensor, GPU, CUDA"
+4,136,3578,7243,0.389760348583878,"BigQuery, Airflow, Spark, Tableau, Elasticsearch"
+3,135,3632,7548,0.4015478164731896,"Next.js, CSS, Node.js, PostgreSQL, Webpack"
+5,111,3017,5991,0.4941850941850942,"TCP/UDP, Shell Script, TCP/IP, Go, DevOps"
+1,91,2130,4387,0.5201465201465202,"Android, iOS, Swift, Finance, MVVM"
+0,51,607,3754,0.476078431372549,"MLOps, LangChain, RAG, Azure, Fine-tuning"

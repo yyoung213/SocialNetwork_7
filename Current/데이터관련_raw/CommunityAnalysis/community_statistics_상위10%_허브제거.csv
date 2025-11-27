@@ -1,0 +1,8 @@
+﻿Community_ID,Size,Internal_Edges,External_Edges,Density,Top_Skills
+4,138,1667,1402,0.17634613350259176,"TensorRT, Transformer, MLFlow, CUDA, Multimodal"
+2,97,965,1053,0.20725945017182132,"React, TypeScript, Next.js, CSS, Figma"
+3,69,799,1393,0.34057971014492755,"Data Modeling, Power BI, Data Governance, Redshift, Data Warehouse"
+1,66,710,1195,0.331002331002331,"Pandas, Data Extraction, E-commerce, AD Tech, Funnel Analysis"
+0,63,734,1127,0.3758320532514081,"Oracle, MongoDB, Spring, MS-SQL, SAP"
+6,11,47,65,0.8545454545454545,"iOS, Android, Postman, ISTQB, k6"
+5,1,0,0,0.0,XR

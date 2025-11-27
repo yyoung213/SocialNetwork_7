@@ -1,0 +1,420 @@
+﻿Node_ID,Skill,Community_ID
+1,.NET,0
+7,ABAP,0
+271,NLTK,0
+17,ASP.NET,0
+274,Network,0
+21,AWS Aurora,0
+278,No-code,0
+26,AWS Direct Connect,0
+27,AWS ECS,0
+28,AWS EKS,0
+289,OOP,0
+34,AWS RDS,0
+292,On-premise,0
+294,OpenAI API,0
+41,Altium,0
+300,OrCAD,0
+301,Oracle,0
+46,Ansible,0
+303,PADS,0
+304,PCB,0
+49,Apps Script,0
+306,PL,0
+307,PLM,0
+51,ArgoCD,0
+310,PMP,0
+58,Backup/Restore,0
+325,Power Apps,0
+326,Power Automate,0
+72,CCNP,0
+328,Power Platform,0
+88,ChatGPT,0
+90,Claude,0
+349,RPA,0
+97,Copilot,0
+98,Copilot Studio,0
+99,Crawler,0
+102,Cursor,0
+361,Replit,0
+370,SAP,0
+371,SAP CO,0
+372,SAP FI,0
+373,SAP S/4HANA,0
+385,Salesforce,0
+134,ERP,0
+400,Smart Factory,0
+403,Socket,0
+405,SpaCy,0
+408,Spring,0
+409,Spring Security,0
+410,Spring WebFlux,0
+158,Foundry,0
+164,Gemini,0
+426,TMS,0
+178,HIS,0
+436,Tibero,0
+180,HMI,0
+186,Helm,0
+187,Hive,0
+446,Unix,0
+193,ISMS-P,0
+449,VBA,0
+196,ISO27001,0
+198,ITIL,0
+201,Impala,0
+202,IoT,0
+207,JWT,0
+463,WMS,0
+464,WPF,0
+210,Jenkins,0
+466,Wav2Vec,0
+474,Windows,0
+220,KoNLPy,0
+481,Zabbix,0
+488,n8n,0
+493,정보보안기사,0
+239,Low-code,0
+244,MES,0
+251,MS-SQL,0
+252,MSA,0
+254,MariaDB,0
+324,Postman,1
+197,ISTQB,1
+486,iOS,1
+487,k6,1
+421,Swift,1
+489,nGrinder,1
+43,Android,1
+204,JMeter,1
+79,CSTS,1
+48,Appium,1
+253,MVP,1
+129,DocumentDB,2
+257,Medical Device,3
+2,3D Geometry,3
+3,3D Motion,3
+4,3D Reconstruction,3
+263,Monday.com,3
+9,ADAS,3
+11,AIOps,3
+267,Multi-thread,3
+14,AR,3
+15,ARM,3
+272,NPU,3
+18,ASR,3
+275,Neural Rendering,3
+283,NumPy,3
+285,Nvidia Issac Sim,3
+286,Nvidia Omniverse,3
+29,AWS ElastiCache,3
+288,ONNX,3
+32,AWS OpenSearch,3
+38,Action Recognition,3
+295,OpenCL,3
+296,OpenCV,3
+297,OpenGL,3
+298,OpenStack,3
+45,Animation,3
+302,PACS,3
+53,Audio,3
+54,AutoML,3
+55,Autonomous Driving,3
+313,PX4,3
+316,Photoshop,3
+317,Physics Engine,3
+318,Pillow,3
+63,Blender,3
+322,Pose Estimation,3
+67,C++,3
+69,CAD,3
+70,CAE,3
+334,Prototyping,3
+80,CUDA,3
+81,CVAT,3
+340,QNX,3
+89,Circuit Design,3
+348,ROS,3
+92,Codec,3
+94,Computer Graphics,3
+350,RTOS,3
+352,Ray,3
+358,Redmine,3
+105,DICOM,3
+107,DPDK,3
+108,DSP,3
+109,Dagger Hilt,3
+365,Robotics,3
+367,Routing,3
+363,Rigging,3
+374,SAP SD,3
+377,SLAM,3
+123,Depth Estimation,3
+126,Diffusion,3
+387,Scikit-image,3
+138,Embedded,3
+394,Sensor,3
+397,Simulation,3
+144,FPGA,3
+402,SoC,3
+155,Flow,3
+157,Foundation Model,3
+161,GNN,3
+162,GPU,3
+163,Game,3
+422,SystemVerilog,3
+424,TCP/UDP,3
+425,TDD,3
+427,TPM,3
+428,TTS,3
+437,Transformer,3
+439,Triton,3
+185,Healthcare,3
+443,Unit Test,3
+444,Unity,3
+189,Hybrid App,3
+190,IAM,3
+191,IEC 62304,3
+192,IMU,3
+447,Unreal Engine,3
+194,ISO 14971,3
+195,ISO 26262,3
+450,VITS,3
+451,VM,3
+454,VR,3
+448,VAE,3
+453,VPC,3
+457,Verilog,3
+459,Virtualization,3
+203,JAX,3
+462,Vulkan,3
+206,JSON,3
+212,Jetpack Compose,3
+215,KMS,3
+216,KVM,3
+472,Webtoon,3
+473,Whisper,3
+479,YOLO,3
+227,Label Studio,3
+231,LiDAR,3
+233,Linear Algebra,3
+490,pytest,3
+235,Linux Kernel,3
+236,Logistics,3
+492,vLLM,3
+241,MATLAB,3
+243,MCU,3
+245,MFC,3
+420,Swagger,4
+71,CAN,4
+458,Vertex AI,4
+170,Google ADK,4
+332,PropTech,4
+173,Google Workspace,4
+335,Pub/Sub,4
+84,CatBoost,4
+24,AWS CloudFront,4
+476,XGBoost,4
+381,SQLAlchemy,4
+31,AWS Lambda,4
+455,VTK,5
+256,Media,6
+12,AML,6
+273,NestJS,6
+276,Next.js,6
+277,Nginx,6
+280,Node.js,6
+25,AWS CodePipeline,6
+284,Nuxt.js,6
+291,Observability,6
+36,AWS SNS,6
+37,AWS SQS,6
+299,OpenTelemetry,6
+44,Angular,6
+305,PHP,6
+309,PMF,6
+59,BeautifulSoup,6
+315,Payment,6
+62,Bitbucket,6
+64,Blockchain,6
+320,Playwright,6
+321,Poetry,6
+76,CQRS,6
+78,CSS,6
+337,Puppeteer,6
+87,Charles,6
+345,REST API,6
+91,Cloudflare,6
+96,Confluence,6
+354,React Native,6
+355,Recharts,6
+103,D3.js,6
+104,DDD,6
+360,Redux,6
+364,Roadmap,6
+368,Ruby on Rails,6
+369,Rust,6
+376,SEO,6
+121,DeFi,6
+378,SOLID,6
+379,SPA,6
+124,Design System,6
+383,SSE,6
+384,SSR,6
+127,Django,6
+391,Search Engine,6
+136,EVM,6
+393,Selenium,6
+395,Sentry,6
+141,Expo,6
+142,Express.js,6
+399,Smart Contract,6
+147,Fastlane,6
+404,Solidity,6
+148,Figma,6
+153,Flask,6
+156,Flutter,6
+412,Storage,6
+415,Storybook,6
+417,Styled-components,6
+419,Svelte,6
+166,GitHub Actions,6
+423,TCP/IP,6
+168,GitOps,6
+430,Tailwind CSS,6
+175,GraphQL,6
+431,Tanstack Query,6
+434,Test Case,6
+435,Three.js,6
+181,HTML,6
+182,HTTP,6
+184,Hadoop YARN,6
+441,UI,6
+456,Vector DB,6
+460,Vite,6
+461,Vue,6
+465,Wallet,6
+467,Web3,6
+211,Jest,6
+468,WebGL,6
+469,WebRTC,6
+214,Jotai,6
+470,WebSocket,6
+471,Webpack,6
+219,Kibana,6
+477,XML,6
+480,Yarn Berry,6
+483,Zod,6
+484,Zustand,6
+229,LangGraph,6
+230,LangSmith,6
+491,shadcn/ui,6
+237,Loki,6
+494,정보보호,6
+249,MQTT,6
+478,XR,7
+258,Metabase,8
+259,MetricFlow,8
+260,Milvus,8
+261,Mobility,8
+6,AARRR,8
+8,AD Tech,8
+266,Multi-Agent,8
+16,ARPU,8
+20,AWS Athena,8
+22,AWS Bedrock,8
+23,AWS CloudFormation,8
+281,North Star Metric,8
+30,AWS Kinesis,8
+287,O2O,8
+33,AWS QuickSight,8
+290,ORM,8
+293,Oozie,8
+39,Agile,8
+42,Amplitude,8
+47,Apache,8
+50,AppsFlyer,8
+52,Async,8
+311,PO,8
+312,PRD,8
+57,Backoffice,8
+60,BentoML,8
+65,Braze,8
+68,CAC,8
+329,Prefect,8
+73,CDC,8
+331,Prompt Engineering,8
+75,CPI,8
+333,Protocol Buffers,8
+336,Pulsar,8
+82,CX,8
+83,Cassandra,8
+85,Causal Inference,8
+86,Celery,8
+346,ROAS,8
+347,ROI,8
+93,Cohort Analysis,8
+351,RabbitMQ,8
+100,Credit Scoring,8
+101,Crypto,8
+356,Redash,8
+359,Redshift,8
+362,Retention,8
+366,Room,8
+110,Data Cleansing,8
+112,Data Governance,8
+113,Data Mart,8
+117,DataHub,8
+118,Databricks,8
+119,Datadog,8
+375,SCM,8
+120,Dataflow,8
+122,Debezium,8
+382,SRE,8
+130,DynamoDB,8
+131,E-commerce,8
+132,ELT,8
+133,EMR,8
+390,ScyllaDB,8
+389,Scrum,8
+139,Excel,8
+140,Exchange,8
+143,FHIR,8
+401,Snowflake,8
+145,Facebook Ads,8
+149,Finance,8
+151,Fintech,8
+407,Spreadsheet,8
+152,Firebase,8
+413,Storm,8
+414,Storyboard,8
+159,Funnel Analysis,8
+418,Superset,8
+167,GitLab CI,8
+171,Google AdMob,8
+172,Google Analytics,8
+176,Growth Hacking,8
+177,HBase,8
+433,Terraform,8
+179,HL7,8
+438,Trino,8
+442,UX,8
+188,HuggingFace,8
+445,Unity Ads,8
+452,VOC,8
+200,Iceberg,8
+205,JPA,8
+218,Kanban,8
+475,Wireframe,8
+221,Kotlin,8
+225,LLMOps,8
+226,LTV,8
+482,Zeplin,8
+485,dbt,8
+232,LightGBM,8
+238,Looker Studio,8
+495,정보처리기사,8
+240,Luigi,8
+242,MAU,8
+250,MS Office,8
+255,Markdown,8

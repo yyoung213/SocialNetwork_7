@@ -1,0 +1,10 @@
+﻿Community_ID,Size,Internal_Edges,External_Edges,Density,Top_Skills
+3,114,1135,675,0.17621487346685297,"Transformer, CUDA, GPU, ONNX, Diffusion"
+8,105,1304,1010,0.23882783882783884,"E-commerce, Cohort Analysis, Redshift, AD Tech, Funnel Analysis"
+6,94,914,776,0.20910546785632578,"Next.js, CSS, Figma, HTML, GitHub Actions"
+0,80,623,720,0.1971518987341772,"Spring, MS-SQL, Oracle, Backup/Restore, PL"
+4,12,48,157,0.7272727272727273,"Swagger, Vertex AI, Google Workspace, CAN, Pub/Sub"
+1,11,47,56,0.8545454545454545,"iOS, Android, Postman, ISTQB, k6"
+2,1,0,0,0.0,DocumentDB
+5,1,0,0,0.0,VTK
+7,1,0,0,0.0,XR

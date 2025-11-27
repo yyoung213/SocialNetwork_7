@@ -1,0 +1,6 @@
+﻿Community_ID,Size,Internal_Edges,External_Edges,Density,Top_Skills
+1,161,2981,4531,0.231444099378882,"JavaScript, React, TypeScript, Git, API"
+2,150,2000,2987,0.1789709172259508,"C, Python, CS, Linux, Embedded"
+3,123,2567,4758,0.34212981474077037,"AWS, Spring, Java, Redis, CI/CD"
+0,70,909,2929,0.3763975155279503,"AI, GCP, LLM, Azure, MLOps"
+4,45,326,1524,0.3292929292929293,"iOS, Android, Kotlin, MVVM, Async"

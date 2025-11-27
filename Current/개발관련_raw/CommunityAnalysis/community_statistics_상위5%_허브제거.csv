@@ -1,0 +1,7 @@
+﻿Community_ID,Size,Internal_Edges,External_Edges,Density,Top_Skills
+3,172,3562,4239,0.2422140622875017,"Embedded, Computer Vision, DL, GPU, WebSocket"
+0,168,4843,6229,0.34523809523809523,"CSS, Node.js, Webpack, PostgreSQL, MongoDB"
+4,111,3738,4675,0.6122850122850123,"Rust, Go, Prometheus, Grafana, Blockchain"
+1,71,1053,3760,0.42374245472837024,"Airflow, ML, NumPy, DevOps, MLOps"
+5,67,540,2410,0.24423337856173677,"iOS, Android, Swift, MVVM, Combine"
+2,64,1115,2512,0.5530753968253969,"HTTP, Jenkins, MVC, Virtualization, Routing"

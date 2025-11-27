@@ -1,0 +1,7 @@
+﻿Community_ID,Size,Internal_Edges,External_Edges,Density,Top_Skills
+0,175,4053,3743,0.26620689655172414,"E-commerce, Tanstack Query, GraphQL, SSR, Vite"
+3,174,3192,2608,0.21207893163244967,"TensorRT, CUDA, ONNX, Robotics, RTOS"
+2,112,2047,2320,0.3293114543114543,"TCP/IP, TCP/UDP, Windows, MariaDB, Routing"
+1,86,2437,2231,0.6667578659370725,"Blockchain, DeFi, Finance, EVM, Smart Contract"
+5,70,574,1703,0.23768115942028986,"Combine, Pandas, MLFlow, Scikit-learn, Swift Concurrency"
+4,1,0,0,0.0,Microsoft 365

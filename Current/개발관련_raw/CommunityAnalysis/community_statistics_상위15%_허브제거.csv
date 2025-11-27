@@ -1,0 +1,9 @@
+﻿Community_ID,Size,Internal_Edges,External_Edges,Density,Top_Skills
+0,213,3182,2298,0.1409336522278324,"Tanstack Query, Vite, Payment, AWS EKS, AWS ECS"
+1,157,2748,1814,0.2243998040176384,"GPU, ROS, SoC, Sensor, CUDA"
+3,90,1519,1353,0.37927590511860176,"TCP/IP, Routing, Windows, MariaDB, Virtualization"
+4,87,2736,1512,0.731355252606255,"Blockchain, DeFi, EVM, Smart Contract, Finance"
+7,34,257,640,0.45811051693404636,"Tableau, A/B Testing, Statistics, Pandas, Game"
+2,1,0,0,0.0,CX
+5,1,0,0,0.0,Microsoft 365
+6,1,0,0,0.0,No-code

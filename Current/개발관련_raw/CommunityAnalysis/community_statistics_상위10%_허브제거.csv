@@ -1,0 +1,7 @@
+﻿Community_ID,Size,Internal_Edges,External_Edges,Density,Top_Skills
+4,186,4317,4000,0.25091543156059287,"Webpack, Slack, GitHub Actions, Zustand, NestJS"
+3,152,2610,2469,0.22743116068316488,"GPU, ROS, SoC, ARM, Sensor"
+2,145,4464,3616,0.42758620689655175,"Prometheus, Grafana, IaC, Rust, ArgoCD"
+5,98,1725,2099,0.36292867662528927,"TCP/IP, TCP/UDP, Shell Script, Windows, Routing"
+1,37,319,1025,0.47897897897897895,"Airflow, Tableau, A/B Testing, NumPy, Statistics"
+0,1,0,0,0.0,CX
